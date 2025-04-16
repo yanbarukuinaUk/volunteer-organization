@@ -128,7 +128,7 @@ function App() {
               {
                 name: '佐藤 花子',
                 role: '副代表理事',
-                image: 'pic.jpg',
+                image: '/pic.jpg',
               },
               {
                 name: '鈴木 一郎',
