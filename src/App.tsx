@@ -29,7 +29,7 @@ function App() {
           <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
             <div className="text-center text-white px-4">
               <h1 className="text-5xl font-bold mb-4">ボランティア事業サークル~LocaRevo(ロカレボ)(仮)~</h1>
-              <p className="text-xl mb-8">共に創る、地域から生み出す新たな観光と雇用</p>
+              <p className="text-xl mb-8">共に創る 、地域から生み出す新たな観光と雇用</p>
               <button
                 onClick={() => scrollToSection('about')}
                 className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-full transition duration-300"
