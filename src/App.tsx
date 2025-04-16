@@ -169,9 +169,9 @@ function App() {
               },
             ].map((activity) => (
               <a
-              // key={activity.title}
-              // href={activity.link}
-              // className="group relative overflow-hidden rounded-lg block"
+                key={activity.title}
+                // href={activity.link}
+                className="group relative overflow-hidden rounded-lg block"
               >
                 <img src={activity.image} alt={activity.title} className="w-full h-64 object-cover transition duration-300 group-hover:scale-105" />
                 <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
