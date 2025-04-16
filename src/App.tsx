@@ -112,7 +112,6 @@ function App() {
             </div>
           </div>
         </div>
-        <img src="/pic.png" alt="Volunteer" />
       </section>
 
       {/* Members Section */}
@@ -124,12 +123,12 @@ function App() {
               {
                 name: '山田 太郎',
                 role: '代表理事',
-                image: 'https://github.com/yanbarukuinaUk/volunteer-organization/blob/master/public/pic.png',
+                image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=400',
               },
               {
                 name: '佐藤 花子',
                 role: '副代表理事',
-                image: '/pic.jpg',
+                image: 'https://github.com/yanbarukuinaUk/volunteer-organization/blob/master/public/images/pic.png',
               },
               {
                 name: '鈴木 一郎',
