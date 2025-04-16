@@ -12,17 +12,17 @@ function App() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <div 
+      <div
         className="h-screen bg-cover bg-center relative"
         style={{
-          backgroundImage: 'url("https://images.unsplash.com/photo-1559027615-cd4628902d4a?auto=format&fit=crop&q=80&w=2070")',
+          backgroundImage: 'url("https://drive.google.com/file/d/1KieEqFUJsLV307Ot4aty0BlLKs9-XYNM/view?usp=sharing")',
         }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
           <div className="text-center text-white px-4">
             <h1 className="text-5xl font-bold mb-4">ボランティア未来の会</h1>
             <p className="text-xl mb-8">共に創る、より良い未来</p>
-            <button 
+            <button
               onClick={() => scrollToSection('about')}
               className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-full transition duration-300"
             >
@@ -40,9 +40,8 @@ function App() {
               <button
                 key={tab}
                 onClick={() => scrollToSection(tab)}
-                className={`px-4 py-2 rounded-lg transition duration-300 ${
-                  activeTab === tab ? 'bg-blue-600 text-white' : 'text-gray-600 hover:bg-gray-100'
-                }`}
+                className={`px-4 py-2 rounded-lg transition duration-300 ${activeTab === tab ? 'bg-blue-600 text-white' : 'text-gray-600 hover:bg-gray-100'
+                  }`}
               >
                 {
                   {
@@ -168,8 +167,8 @@ function App() {
                 link: '/activities/environment',
               },
             ].map((activity) => (
-              <a 
-                key={activity.title} 
+              <a
+                key={activity.title}
                 href={activity.link}
                 className="group relative overflow-hidden rounded-lg block"
               >
