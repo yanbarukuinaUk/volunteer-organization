@@ -156,7 +156,7 @@ function App() {
             {[
               {
                 title: '桂島の今',
-                description: '使われていない土地を活用し、地域の人々と共に新たな観光地を創出',
+                description: '日本各地に存在する，使われていない土地',
                 image: 'https://github.com/yanbarukuinaUk/volunteer-organization/blob/master/public/images/ima.jpg?raw=true',
                 link: '/activities/education',
               },
