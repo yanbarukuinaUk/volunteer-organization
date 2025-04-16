@@ -114,41 +114,40 @@ function App() {
         </div>
       </section>
 
+
+      {/* Members Section */}
       {/* Members Section */}
       <section id="members" className="py-20 px-4 bg-gray-50">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold text-center mb-16">代表者・主要メンバー</h2>
           <div className="grid md:grid-cols-3 gap-8">
-            <img src="https://drive.google.com/uc?export=view&id=1KieEqFUJsLV307Ot4aty0BlLKs9-XYNM" alt="Google Drive Image">
-
-              {[
-                {
-                  name: '山田 太郎',
-                  role: '代表理事',
-                  image: 'https://drive.google.com/uc?export=view&id=1KieEqFUJsLV307Ot4aty0BlLKs9-XYNM',
-                },
-                {
-                  name: '佐藤 花子',
-                  role: '副代表理事',
-                  image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=400',
-                },
-                {
-                  name: '鈴木 一郎',
-                  role: '事務局長',
-                  image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=400',
-                },
-              ].map((member) => (
-                <div key={member.name} className="bg-white rounded-lg overflow-hidden shadow-lg">
-                  <img src={member.image} alt={member.name} className="w-full h-48 object-cover" />
-                  <div className="p-6">
-                    <h3 className="text-xl font-semibold mb-2">{member.name}</h3>
-                    <p className="text-gray-600">{member.role}</p>
-                  </div>
+            {[{
+              name: '山田 太郎',
+              role: '代表理事',
+              image: 'https://drive.google.com/uc?export=view&id=1KieEqFUJsLV307Ot4aty0BlLKs9-XYNM',
+            },
+            {
+              name: '佐藤 花子',
+              role: '副代表理事',
+              image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=400',
+            },
+            {
+              name: '鈴木 一郎',
+              role: '事務局長',
+              image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=400',
+            }].map((member) => (
+              <div key={member.name} className="bg-white rounded-lg overflow-hidden shadow-lg">
+                <img src={member.image} alt={member.name} className="w-full h-48 object-cover" />
+                <div className="p-6">
+                  <h3 className="text-xl font-semibold mb-2">{member.name}</h3>
+                  <p className="text-gray-600">{member.role}</p>
                 </div>
-              ))}
+              </div>
+            ))}
           </div>
         </div>
       </section>
+
 
       {/* Activities Section */}
       <section id="activities" className="py-20 px-4">
