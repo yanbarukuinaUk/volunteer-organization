@@ -112,6 +112,7 @@ function App() {
             </div>
           </div>
         </div>
+        <img src="/pic.png" alt="Volunteer" />
       </section>
 
       {/* Members Section */}
