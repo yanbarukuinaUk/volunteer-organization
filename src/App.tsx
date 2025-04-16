@@ -128,7 +128,7 @@ function App() {
               {
                 name: '佐藤 花子',
                 role: '副代表理事',
-                image: 'https://github.com/yanbarukuinaUk/volunteer-organization/blob/master/public/images/pic.png',
+                image: 'https://github.com/yanbarukuinaUk/volunteer-organization/blob/master/public/images/pic.png?raw=true',
               },
               {
                 name: '鈴木 一郎',
