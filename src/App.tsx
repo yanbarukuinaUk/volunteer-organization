@@ -15,7 +15,7 @@ function App() {
       <div
         className="h-screen bg-cover bg-center relative"
         style={{
-          backgroundImage: 'url("https://drive.google.com/uc?export=view&id=1KieEqFUJsLV307Ot4aty0BlLKs9-XYNM")',
+          backgroundImage: 'url("https://images.unsplash.com/photo-1559027615-cd4628902d4a?auto=format&fit=crop&q=80&w=2070")',
         }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
@@ -123,7 +123,7 @@ function App() {
               {
                 name: '山田 太郎',
                 role: '代表理事',
-                image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=400',
+                image: 'https://drive.google.com/uc?export=view&id=1KieEqFUJsLV307Ot4aty0BlLKs9-XYNM',
               },
               {
                 name: '佐藤 花子',
