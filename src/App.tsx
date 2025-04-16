@@ -179,7 +179,7 @@ function App() {
                     <h3 className="text-2xl font-semibold mb-2">{activity.title}</h3>
                     <p className="mb-4">{activity.description}</p>
                     <div className="flex items-center justify-center gap-2 text-blue-400">
-                      <span>詳しく見る</span>
+                      {/* <span>詳しく見る</span> */}
                       <ArrowRight className="w-5 h-5" />
                     </div>
                   </div>
