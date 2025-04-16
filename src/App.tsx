@@ -20,8 +20,8 @@ function App() {
       >
         <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
           <div className="text-center text-white px-4">
-            <h1 className="text-5xl font-bold mb-4">ボランティア事業団体~LocaRevo~</h1>
-            <p className="text-xl mb-8">共に創る、より良い未来</p>
+            <h1 className="text-5xl font-bold mb-4">ボランティア事業サークル~LocaRevo(ロカレボ)(仮)~</h1>
+            <p className="text-xl mb-8">共に創る、地域から生み出す新たな観光と雇用</p>
             <button
               onClick={() => scrollToSection('about')}
               className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-full transition duration-300"
@@ -128,7 +128,7 @@ function App() {
               {
                 name: '小武 右京',
                 role: '副代表',
-                image: 'https://github.com/yanbarukuinaUk/volunteer-organization/blob/master/public/images/pic.png?raw=true',
+                image: 'https://github.com/yanbarukuinaUk/volunteer-organization/blob/master/public/images/ukyou.jpg?raw=true',
               },
               {
                 name: '高松 雄大',
@@ -151,19 +151,19 @@ function App() {
       {/* Activities Section */}
       <section id="activities" className="py-20 px-4">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl font-bold text-center mb-16">活動内容</h2>
+          <h2 className="text-3xl font-bold text-center mb-16">桂島の今と未来</h2>
           <div className="grid md:grid-cols-2 gap-8">
             {[
               {
-                title: '教育支援活動',
-                description: '地域の子どもたちへの学習支援、教育イベントの開催',
-                image: 'https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?auto=format&fit=crop&q=80&w=2070',
+                title: '桂島の今',
+                description: '使われていない土地を活用し、地域の人々と共に新たな観光地を創出',
+                image: 'https://github.com/yanbarukuinaUk/volunteer-organization/blob/master/public/images/ima.jpg?raw=true',
                 link: '/activities/education',
               },
               {
-                title: '環境保護活動',
-                description: '地域清掃、リサイクル推進、環境教育プログラムの実施',
-                image: 'https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=2070',
+                title: '桂島の未来',
+                description: '宿泊施設やレジャー施設を設置し、観光資源と地域の雇用を創出',
+                image: 'https://github.com/yanbarukuinaUk/volunteer-organization/blob/master/public/images/mirai.jpg?raw=true',
                 link: '/activities/environment',
               },
             ].map((activity) => (
@@ -233,15 +233,15 @@ function App() {
               <div className="space-y-6">
                 <div className="flex items-center gap-4">
                   <Mail className="text-blue-600" />
-                  <p>info@volunteer-mirai.org</p>
+                  <p>example@gmail.com</p>
                 </div>
                 <div className="flex items-center gap-4">
                   <Phone className="text-blue-600" />
-                  <p>03-1234-5678</p>
+                  <p>--------------</p>
                 </div>
                 <div className="flex items-center gap-4">
                   <MapPin className="text-blue-600" />
-                  <p>東京都渋谷区○○1-2-3</p>
+                  <p>宮城県仙台市</p>
                 </div>
               </div>
               <div className="mt-12">
@@ -272,9 +272,9 @@ function App() {
                 <label className="block text-sm font-medium text-gray-700 mb-2">お問い合わせ内容</label>
                 <textarea rows={4} className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent"></textarea>
               </div>
-              <button type="submit" className="w-full bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg transition duration-300">
+              {/* <button type="submit" className="w-full bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg transition duration-300">
                 送信する
-              </button>
+              </button> */}
             </form>
           </div>
         </div>
@@ -283,10 +283,10 @@ function App() {
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-12">
         <div className="max-w-6xl mx-auto px-4 text-center">
-          <h2 className="text-2xl font-bold mb-4">ボランティア未来の会</h2>
-          <p className="text-gray-400">共に創る、より良い未来</p>
+          <h2 className="text-2xl font-bold mb-4">ボランティア事業サークル~LocaRevo(ロカレボ)(仮)~</h2>
+          <p className="text-gray-400">共に創る、地域から生み出す新たな観光と雇用</p>
           <div className="mt-8">
-            <p className="text-sm text-gray-400">&copy; 2024 ボランティア未来の会. All rights reserved.</p>
+            <p className="text-sm text-gray-400">&copy; 2025 ボランティア事業サークル~LocaRevo(ロカレボ)(仮)~. All rights reserved.</p>
           </div>
         </div>
       </footer>
