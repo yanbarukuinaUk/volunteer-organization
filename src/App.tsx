@@ -21,7 +21,7 @@ function App() {
       >
         <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
           <div className="text-center text-white px-4">
-            <h1 className="text-5xl font-bold mb-4">ボランティア事業サークル~LocaRevo(ロカレボ)(仮)~</h1>
+            <h1 className="text-5xl font-bold mb-4">ボランティア事業サークル~LocaRevo(ロカレボ)~</h1>
             <p className="text-xl mb-8">共に創る、地域から生み出す新たな観光と雇用</p>
             <button
               onClick={() => scrollToSection('about')}
@@ -63,6 +63,7 @@ function App() {
       <section className="py-20 px-4 bg-white">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-bold text-center mb-16">私たちのミッション</h2>
+          <h2 className="text-4xl font-bold text-center mb-16">楽しく未来を創る</h2>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-blue-50 p-8 rounded-xl text-center">
               <div className="flex justify-center mb-6">
@@ -97,12 +98,12 @@ function App() {
             <h3 className="text-2xl font-semibold mb-4">設立年 / 歴史</h3>
             <div className="flex items-center gap-3 mb-8">
               <Calendar className="text-blue-600" />
-              <p>2025年設立</p>
+              <p>2025年設立　東北大サークルとして申請中</p>
             </div>
             <h3 className="text-2xl font-semibold mb-4">活動エリア</h3>
             <div className="flex items-center gap-3 mb-8">
               <MapPin className="text-blue-600" />
-              <p>宮城県仙台市</p>
+              <p>宮城県仙台市から世界へ</p>
             </div>
           </div>
           <div className="bg-gray-100 p-8 rounded-lg">
@@ -123,18 +124,18 @@ function App() {
             {[
               {
                 name: '奥 裕次郎',
-                role: '代表',
+                role: '代表 宮城大学３年',
                 image: 'https://github.com/yanbarukuinaUk/volunteer-organization/blob/master/public/images/oku.jpg?raw=true',
               },
               {
                 name: '小武 右京',
-                role: '副代表',
+                role: '副代表 東北大学4年',
                 image: 'https://github.com/yanbarukuinaUk/volunteer-organization/blob/master/public/images/ukyou.jpg?raw=true',
               },
               {
                 name: '高松 雄大',
-                role: '事務局長',
-                image: 'https://github.com/yanbarukuinaUk/volunteer-organization/blob/master/public/images/pic.png?raw=true',
+                role: '財務責任者 東北大学4年',
+                image: 'https://github.com/yanbarukuinaUk/volunteer-organization/blob/master/public/images/yudai.jpg?raw=true',
               },
             ].map((member) => (
               <div key={member.name} className="bg-white rounded-lg overflow-hidden shadow-lg">
@@ -284,7 +285,7 @@ function App() {
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-12">
         <div className="max-w-6xl mx-auto px-4 text-center">
-          <h2 className="text-2xl font-bold mb-4">ボランティア事業サークル~LocaRevo(ロカレボ)(仮)~</h2>
+          <h2 className="text-2xl font-bold mb-4">ボランティア事業サークル~LocaRevo(ロカレボ)~</h2>
           <p className="text-gray-400">共に創る、地域から生み出す新たな観光と雇用</p>
           <div className="mt-8">
             <p className="text-sm text-gray-400">&copy; 2025 ボランティア事業サークル~LocaRevo(ロカレボ)(仮)~. All rights reserved.</p>
