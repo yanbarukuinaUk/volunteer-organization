@@ -232,7 +232,14 @@ function App() {
           <div className="grid md:grid-cols-2 gap-12">
             <div>
               <h3 className="text-2xl font-semibold mb-8">連絡先</h3>
-              <div className="space-y-6">
+
+              <img
+                src="https://github.com/yanbarukuinaUk/volunteer-organization/blob/master/public/images/line.jpg?raw=true"
+                alt="Contact"
+                className="w-full h-48 object-cover rounded-lg mb-6"
+              />
+
+              {/* <div className="space-y-6">
                 <div className="flex items-center gap-4">
                   <Mail className="text-blue-600" />
                   <p>example@gmail.com</p>
@@ -245,7 +252,7 @@ function App() {
                   <MapPin className="text-blue-600" />
                   <p>宮城県仙台市</p>
                 </div>
-              </div>
+              </div> */}
               <div className="mt-12">
                 <h3 className="text-2xl font-semibold mb-8">SNS</h3>
                 <div className="flex gap-6">
