@@ -236,7 +236,6 @@ function App() {
               <img
                 src="https://github.com/yanbarukuinaUk/volunteer-organization/blob/master/public/images/line.jpg?raw=true"
                 alt="Contact"
-                className="w-full h-48 object-cover rounded-lg mb-6"
               />
 
               {/* <div className="space-y-6">
